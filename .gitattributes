@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.lean text
+*.md text
+*.pdf binary

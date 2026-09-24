@@ -1,0 +1,55 @@
+Local verification: 2026-09-24
+Lean 4.33.0; Mathlib v4.33.0
+
+Lake build (--wfail), exit 0:
+✔ [3069/3105] Built OperatorPhaseRetrieval.MathlibImports (13s)
+✔ [3070/3105] Built OperatorPhaseRetrieval.AtomlessCDF (25s)
+✔ [3071/3105] Built OperatorPhaseRetrieval.CompactModel (25s)
+✔ [3072/3105] Built OperatorPhaseRetrieval.UniformAlgebra (25s)
+✔ [3073/3105] Built OperatorPhaseRetrieval.StandardBorelDouble (25s)
+✔ [3074/3105] Built OperatorPhaseRetrieval.ThreePhase (26s)
+✔ [3075/3105] Built OperatorPhaseRetrieval.L2 (16s)
+✔ [3076/3105] Built OperatorPhaseRetrieval.Projection (16s)
+✔ [3077/3105] Built OperatorPhaseRetrieval.AnalyticUniqueness (16s)
+✔ [3078/3105] Built OperatorPhaseRetrieval.GapApproximation (16s)
+✔ [3079/3105] Built OperatorPhaseRetrieval.Corollaries (23s)
+✔ [3080/3105] Built OperatorPhaseRetrieval.NearIdentity (23s)
+✔ [3081/3105] Built OperatorPhaseRetrieval.WeightedL2 (23s)
+✔ [3082/3105] Built OperatorPhaseRetrieval.ProductApproximation (23s)
+✔ [3083/3105] Built OperatorPhaseRetrieval.BlockRotation (23s)
+✔ [3084/3105] Built OperatorPhaseRetrieval.Amplification (29s)
+✔ [3085/3105] Built OperatorPhaseRetrieval.AESpatialPullback (9.2s)
+✔ [3086/3105] Built OperatorPhaseRetrieval.DiagonalSmoothing (9.0s)
+✔ [3087/3105] Built OperatorPhaseRetrieval.AmplificationTheorem (5.9s)
+✔ [3088/3105] Built OperatorPhaseRetrieval.ProbabilitySpatial (2.6s)
+✔ [3089/3105] Built OperatorPhaseRetrieval.PolynomialSmoothing (3.7s)
+✔ [3090/3105] Built OperatorPhaseRetrieval.SpatialExistence (3.5s)
+✔ [3091/3105] Built OperatorPhaseRetrieval.DoubleL2 (4.1s)
+✔ [3092/3105] Built OperatorPhaseRetrieval.Complement (4.7s)
+✔ [3093/3105] Built OperatorPhaseRetrieval.PolynomialBasis (3.2s)
+✔ [3094/3105] Built OperatorPhaseRetrieval.Instability (8.6s)
+✔ [3095/3105] Built OperatorPhaseRetrieval.SpatialTransfer (3.4s)
+✔ [3096/3105] Built OperatorPhaseRetrieval.RigidModel (3.5s)
+✔ [3097/3105] Built OperatorPhaseRetrieval.MagnitudeDistance (3.9s)
+✔ [3098/3105] Built OperatorPhaseRetrieval.SpatialPullback (3.6s)
+✔ [3099/3105] Built OperatorPhaseRetrieval.EntireModel (3.6s)
+✔ [3100/3105] Built OperatorPhaseRetrieval.Main (3.7s)
+✔ [3101/3105] Built OperatorPhaseRetrieval.Completion (2.8s)
+✔ [3102/3105] Built OperatorPhaseRetrieval.TransferredInstability (4.2s)
+✔ [3103/3105] Built OperatorPhaseRetrieval.Consequences (3.1s)
+✔ [3104/3105] Built OperatorPhaseRetrieval (2.4s)
+Build completed successfully (3105 jobs).
+
+Axiom audit (warningAsError=true), exit 0:
+'OperatorPhaseRetrieval.main' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OperatorPhaseRetrieval.exists_order_three_phase_retrieval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OperatorPhaseRetrieval.exists_near_identity_phase_retrieval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OperatorPhaseRetrieval.exists_entire_rigid_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OperatorPhaseRetrieval.exists_spatial_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OperatorPhaseRetrieval.phase_retrieval_on_standardBorel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OperatorPhaseRetrieval.phase_retrieval_on_completion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OperatorPhaseRetrieval.main_with_instability' depends on axioms: [propext, Classical.choice, Quot.sound]
+PASS: 509 declarations checked; only propext, Classical.choice, Quot.sound are allowed.
+
+Standalone generation check: PASS
+Standalone Lean check (warningAsError=true): exit 0; no diagnostics.
