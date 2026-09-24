@@ -20,6 +20,6 @@ The axiom count includes generated helper declarations, so it is larger than the
 
 The local build reused the installed pinned dependency checkouts and compiled Mathlib cache through Lake package path overrides. ProofWidgets was copied into a writable scratch directory for its build metadata. These machine-local overrides and dependency copies are not included in the repository; `lakefile.toml` and `lake-manifest.json` use portable GitHub revisions.
 
-The GitHub workflow is configured but has not yet been run on GitHub. Fresh dependency downloads and the Ubuntu runner will be exercised by the first GitHub run. The supplied PDF has not been edited or bundled.
+The [first GitHub Actions run](https://github.com/danielomer0802-sudo/weak-wrights-conjecture/actions/runs/36008990921) passed on September 24, 2026, for commit `e2edec432ff26b5fa3b89abf00369ff18f3a776e`. On the `ubuntu-latest` runner, it successfully built the modular library, audited the project declarations, checked standalone synchronization, and checked the standalone formalization. This also verified fresh dependency downloads and the portable dependency configuration. The supplied PDF has not been edited or bundled.
 
 See [verification.log](verification.log) for the successful build and axiom-audit output. Reproduce the checks with the commands in the [README](../README.md).
